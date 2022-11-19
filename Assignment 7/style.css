@@ -1,0 +1,42 @@
+
+.container {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .row{
+    width: 35%;
+    height: 250px;
+    
+    text-align: center; 
+}
+  
+span {
+    font-size: 100px;
+    padding: 10px;
+    color: rgb(77, 74, 74);
+}
+  
+.button {
+    font-size: large;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+  
+.up {
+    animation: up 0.5s ease;
+    position: relative;
+}
+  
+.down {
+    animation: down 0.5s ease;
+    position: relative;
+}
+  
+  
